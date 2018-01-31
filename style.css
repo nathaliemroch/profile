@@ -1,0 +1,191 @@
+element.style {
+    background-color: white;
+}
+
+body {
+    background: #E3E8F8;
+    font-family: 'Lateef', sans-serif;
+    font-weight: 300;
+    color: #607D8B;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    color: #203562;
+    font-size: 26px;
+}
+
+h1, h2, h3 {
+    font-family: 'Amiri', serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 20px;
+}
+
+ul, menu, dir {
+    display: inline-block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+    color: #3E588F;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: #3E588F;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px ;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.inline-list, li, i {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+  font-size: -webkit-xxx-large;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 20px/1 FontAwesome;
+    font-size: -webkit-xxx-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#places {
+    height: 135px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#img-profile {
+    width: 175px;
+    height: 175px;
+    border: 3px solid #cccccc;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#places td {
+    padding: 10px;
+}
+
+.img-places {
+    border-radius: 5px;
+    width: 150px;
+}
